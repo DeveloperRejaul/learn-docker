@@ -1,0 +1,6 @@
+file create commend : echo "fileData" > file name
+folder create commend : mkdir  folder name
+
+
+build project:  docker build -t app_name .
+run project with docker : docker run -p localhost_post:app_running_port app_name
